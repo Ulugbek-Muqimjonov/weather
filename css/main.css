@@ -91,11 +91,10 @@ body {
 .hero__result-wather::after {
     position: absolute;
     top: 33px;
-    left: 46px;
+    left: 37px;
     content:"humidity";
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 2px;
-    font-family: cursive;
     opacity: 0.5;
 }
 .hero__result-innerdiv {
@@ -127,7 +126,6 @@ body {
     content:"wind";
     font-size: 14px;
     letter-spacing: 2px;
-    font-family: cursive;
     opacity: 0.5;
 }
 .small {
