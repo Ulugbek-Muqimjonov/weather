@@ -31,7 +31,7 @@ async function getdata(url) {
         case "Snow":
             templateClone.querySelector(".hero__result-img").src = "../images/snow.png";
             break;
-        case "Haze":
+        case "Mist":
             templateClone.querySelector(".hero__result-img").src = "../images/tuman.png";
             break;
         case "Smoke":
