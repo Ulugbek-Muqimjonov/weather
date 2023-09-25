@@ -42,9 +42,16 @@ body {
 }
 .hero__form-btn {
     padding: 10px;
-    background-color:#fff;
+    width: 37px;
+    height: 37px;
+    background-color: #fff;
     border: none;
     border-radius: 50%;
+    background-image: url(../images/searchicon.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+
     
 }
 .hero__result {
@@ -143,3 +150,58 @@ body {
     font-size: 17px;
     text-align: center;
 }
+
+
+@media only screen and (min-width:400px){
+    .hero__form-cuntry {
+        width: 64%;
+        padding: 17px;
+    }
+    .hero__form-btn {
+        padding: 24px;
+    }
+    .hero__result-region {
+        font-size: 30px;
+    }
+    /* .hero__result-innerdiv {
+        justify-content: space-around;
+    } */
+    .hero__result-wather {
+        font-size: 30px;
+    }
+    .hero__result-wather::before {
+        width: 50px;
+        height: 50px;
+        background-size:100%;
+    }
+    .hero__result-wather::after {
+        top: 37px;
+        left: 59px;
+        font-size: 15px;
+    }
+    .big {
+        font-size: 30px;
+    }
+    .hero__result-wind::before {
+        width: 50px;
+        height: 50px;
+        background-size:100%;
+    }
+    .small {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .hero__result-wind::after {
+        top: 40px;
+        left: 68px
+    }
+    
+}
+@media only screen and (min-width:420px){
+    .hero__wrapper {
+        max-width: 380px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+    
