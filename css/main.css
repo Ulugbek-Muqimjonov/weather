@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgba(61, 63, 90, 0.956)
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-header__title {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 3px 4px #c00707;
+}
+.hero__wrapper {
+    padding: 20px 10px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 10px;
+}
+.hero__form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.hero__form-cuntry {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    letter-spacing: 2px;
+    border: none;
+}
+.hero__form-btn {
+    padding: 10px;
+    background-color:#fff;
+    border: none;
+    border-radius: 50%;
+    
+}
+.hero__result {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.hero__result-img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.hero__result-temp {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+.hero__result-region {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing:3px;
+}
+.hero__result-wather {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    font-size: 22px;
+}
+.hero__result-wather::before {
+    display: block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/namlik.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content:""
+}
+.hero__result-wather::after {
+    position: absolute;
+    top: 33px;
+    left: 46px;
+    content:"humidity";
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-family: cursive;
+    opacity: 0.5;
+}
+.hero__result-innerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__result-wind {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    font-size: 17px;
+    padding: 5px;
+}
+.hero__result-wind::before {
+    display: block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/wind.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content:""
+}
+.hero__result-wind::after {
+    position: absolute;
+    top: 33px;
+    left: 46px;
+    content:"wind";
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: cursive;
+    opacity: 0.5;
+}
+.small {
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.big {
+    font-size: 20px;
+}
+.error {
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
