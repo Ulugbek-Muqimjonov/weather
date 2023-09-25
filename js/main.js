@@ -70,7 +70,7 @@ async function getdata(url) {
 elform.addEventListener("submit",evt => {
     evt.preventDefault();
     const elinputValue = elinput.value.trim();
-    // country.textContent = elinputValue.toUpperCase();
     getdata(`https://api.openweathermap.org/data/2.5/weather?q=${elinputValue}&appid=${API}`)
     
+    elinput.value = "";
 })
