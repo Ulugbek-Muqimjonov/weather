@@ -16,21 +16,25 @@ async function getdata(url) {
 
         templateClone.querySelector(".hero__result-img");
         // bu yerda switch case orqali ob xavo turiga qarab rasmlarni joyladim
+        console.log(data);
         switch (data.weather[0].main) {
-            case "Clear":
+        case "Clear":
             templateClone.querySelector(".hero__result-img").   src = "../images/clear.png";
             break;
             
-            case "Clouds":
+        case "Clouds":
             templateClone.querySelector(".hero__result-img").src = "../images/cloudy.png";
             break;
             case "Rain":
             templateClone.querySelector(".hero__result-img").src = "../images/rain.png";
             break;
-            case "Snow":
+        case "Snow":
             templateClone.querySelector(".hero__result-img").src = "../images/snow.png";
             break;
-            case "Haze":
+        case "Haze":
+            templateClone.querySelector(".hero__result-img").src = "../images/tuman.png";
+            break;
+        case "Smoke":
             templateClone.querySelector(".hero__result-img").src = "../images/tuman.png";
             break;
             default:
