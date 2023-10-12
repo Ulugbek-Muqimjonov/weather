@@ -32,7 +32,7 @@ async function getdata(url) {
             templateClone.querySelector(".hero__result-img").src = "../images/rain.png";
             break;
         case "Dust":
-            templateClone.querySelector(".hero__result-img").src = "../images/Dust.jpg";
+            templateClone.querySelector(".hero__result-img").src = "../images/Dust.png";
             break;
         case "Snow":
             templateClone.querySelector(".hero__result-img").src = "../images/snow.png";
