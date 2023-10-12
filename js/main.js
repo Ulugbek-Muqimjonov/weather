@@ -68,7 +68,7 @@ async function getdata(url) {
         
     } catch (error) {
         console.log(error);
-        node.innerHTML = `<p class ="error">Kechirasiz bizda bu shahar xaqida malumot yo'q !</p>`
+        node.innerHTML = `<p class ="error">Sorry, we have no information about this city!</p>`
     }
 }
 
