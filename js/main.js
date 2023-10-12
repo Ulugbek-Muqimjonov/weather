@@ -28,6 +28,9 @@ async function getdata(url) {
             case "Rain":
             templateClone.querySelector(".hero__result-img").src = "../images/rain.png";
             break;
+        case "Drizzle":
+            templateClone.querySelector(".hero__result-img").src = "../images/rain.png";
+            break;
         case "Snow":
             templateClone.querySelector(".hero__result-img").src = "../images/snow.png";
             break;
@@ -65,7 +68,7 @@ async function getdata(url) {
         node.innerHTML = `<p class ="error">Kechirasiz bizda bu shahar xaqida malumot yo'q !</p>`
     }
 }
-// getdata(`https://api.openweathermap.org/data/2.5/weather?q=london&appid=${API}`)
+
 
 elform.addEventListener("submit",evt => {
     evt.preventDefault();
